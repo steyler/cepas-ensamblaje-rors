@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name strain:</strong>
+  <%= @strain.name_strain %>
+</p>
+
+<p>
+  <strong>Percentage:</strong>
+  <%= @strain.percentage %>
+</p>
+
+<%= link_to 'Edit', edit_strain_path(@strain) %> |
+<%= link_to 'Back', strains_path %>
